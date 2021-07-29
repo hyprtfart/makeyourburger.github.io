@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.bun {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+transition: all;
+transition-duration: 1s;
+}
+
+.title {
+position: relative;
+text-align: center;
+padding-bottom: 40px;
+padding-top: 36px;
+font-size: 40px;
+font-family: Friends;
+font-weight: bold;
+}
+
+.bun:hover {
+  animation-name: half;
+  animation-duration: 1s;
+}
+
+
+@keyframes half {
+  0% {
+    opacity: 60%;
+  }
+  100% {
+    opacity: 80%;
+  }
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 30px; 
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  border-color: red;
+}
+
+.btn_1 {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px; 
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(255, 238, 0);
+}
+
+.btn_container {
+  text-align: center;
+}
